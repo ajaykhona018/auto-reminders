@@ -1,0 +1,15 @@
+<div class="col text-center">
+  <input type="checkbox" name="" id="selection">
+</div>
+<div class="col ">
+  {{invoice.invoiceId }}
+</div>
+<div class="col">
+  {{invoice.clientName}}
+</div>
+<div class="col">
+  {{formatDate(invoice.invoiceDate)}}
+</div>
+<div class="col text-right">
+  {{invoice.amount.toFixed(2)}}
+</div>
